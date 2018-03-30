@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!--
+	Assignment: Final WEBD 165 web site project 
+	Author: Christopher Hernandez 
+	Date: December 10, 2017 
+	Filename: services.html 
+	Description: Services page of Fleek Salon and Spa site 
+	Dependencies: styles.css, fleek_logo.png, index.html, contactus.html, about.html, cuts.jpg, color.jpg, facials.jpg, cosmetics.jpg
+--> 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   	<meta name="description" content="This is the services page for Fleek Salon and Spa">
+   	<meta name="keywords" content="salon, spa, services, cuts, color, facials, makeup">
+    <title>Services</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+  </head>
+  <body>
+	  
+	<nav class="navbar navbar-inverse navbar-toggleable-sm fixed-top">
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand hidden-sm-down" href="index.html">Saint Skin</a>
+			<div class="collapse navbar-collapse" id="Navbar">
+				<ul class="navbar-nav ml-auto w-100 justify-content-end">
+					<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+					<li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+					<li class="nav-item"><a class="nav-link " href="contactus.php">Contact</a></li>
+				</ul>
+				
+			</div>	
+		
+	</nav> 
+	 
+      <header >
+        <div class="container-fluid">
+            <div class="header-content row">
+                <div class="col-md-3 offset-md-2 text-center align-self-center">
+                    <h1><span>Saint Skin</span></h1>
+                </div>
+                <div class="col-md-3 offset-md-2 text-center align-self-center hidden-md-up">
+                    <img src="images/fleek_logo.svg" class="img-responsive mx-auto d-block  logo-valign" style="height:150px;margin-bottom:50px;margin-top:40px">
+
+                </div>
+                <div class="col-2 align-self-center justify-content-center hidden-sm-down">
+                    <img src="images/fleek_logo.svg" class="img-responsive mx-auto d-block  logo-valign" style="height:150px;margin:30px">
+                </div>
+                <div class="col-md-4 align-self-center text-center">
+                    <div class="col">
+                    <h1>Salon &amp;</h1>
+                    </div>
+                    <div class="col-12">
+                    <h1>Spa</h1>
+                    </div>
+                </div>
+            </div>
+                 
+        </div>
+  	</header>
+
+<div class="container-fluid color">      
+    
+        <div class="row rowpad">
+            <div class="col-12">
+            <h3 class="text-center colorhd">Services</h3>
+                <br>
+                <div class="col-md-8 offset-md-2">
+                 
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                          <a class="nav-link active" href="#cuts"
+                            role="tab" data-toggle="tab">Cuts</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#color" role="tab"
+                            data-toggle="tab">Color</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#facials" role="tab"
+                            data-toggle="tab">Facials</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#cosmetics" role="tab"
+                            data-toggle="tab">Makeup</a>
+                        </li>
+                    </ul>
+
+
+
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade show active" id="cuts">
+
+
+                            <div class="textoverimg">
+                                <img src="images/cuts_srv.jpg" alt="haircuts" class="img-fluid imgservices rounded">
+                                <div class="topcenter text-center">
+                                <h1>Cuts</h1>
+                                    <br>
+                                    <p>Men’s Hair Cuts: $15-$30</p>
+                                    <p>Women’s Hair Cuts: $45-$55</p>
+                                    <p>Buzz Cuts: $10</p>
+                                    <p>All new clients get $10 OFF your first appointment</p>
+                                    <p>Photo by Brendan Church on Unsplash</p>
+                                </div>
+                            </div>    
+
+                        </div>
+                <div role="tabpanel" class="tab-pane fade" id="color">
+                            <div class="textoverimg">
+                                <img src="images/color_srv.jpg" alt="color" class="img-fluid imgservices rounded">
+                                <div class="topcenter text-center">
+                                <h1>Color</h1>
+                                    <br>
+                                    <p>Permanent Regrowth: $75</p>
+                                    <p>Full Hair Color: Starts at $95</p>
+                                    <p>Semi-Permanent Full Hair Color: $75-$85</p>
+                                    <p>Highlights (1-2 Colors)</p>
+                                    <p>Partial: $90</p>
+                                    <p>Full: $120</p>
+                                    <p>Photo by Kareya Saleh on Unsplash</p>
+
+                                </div>
+                            </div>
+                        </div>
+                <div role="tabpanel" class="tab-pane fade" id="facials">
+                            <div class="textoverimg">
+                                <img src="images/facials_srv.jpg" alt="facials" class="img-fluid imgservices rounded">
+                                <div class="topcenter text-center">
+                                <h1>Facials</h1>
+                                    <br>
+                                    <p>Chemical Peels: starting at $75</p>
+                                    <p>European Facial: $75</p>
+                                    <p>Express Facial: $55</p>
+                                    <p>Microderm Treatment: $120</p>
+                                    <p>Smoothing Eye Treatment: $55</p>
+                                    <p>Glycolic Peel: $100</p>
+                                    <p>Hydrating Facial: $100</p>
+                                    <p>Source: Pixabay.com</p>                                    
+                                </div>
+                            </div>
+                        </div>
+                <div role="tabpanel" class="tab-pane fade" id="cosmetics">
+                            <div class="textoverimg">
+                                <img src="images/cosmetics_srv.jpg" alt="cosmetics" class="img-fluid imgservices rounded">
+                                <div class="topcenter text-center">
+                                <h1>Makeup</h1>
+                                    <br>
+                                    <p>Event (includes 1 set of lashes) : $85</p>
+                                    <p>Portrait/Photo-shoot: $70</p>
+                                    <p>Graduation/Prom: $70</p>
+                                    <p>Makeup Lessons: $100 / HR</p>
+                                    <p>Photo by Meireles Neto on Unsplash</p>
+                                </div>
+                            </div>
+                        </div>
+
+            </div>
+            </div>
+        </div>
+        </div>
+    
+</div>
+</body>
+
+<footer>
+        <div class="container-fluid pt-3 pb-3">	 
+            <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-md-left text-center">
+                    <p>&copy; 2018 Copyright Saint Skin Salon &amp; Spa. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-right align-self-center text-center">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a class="fa fa-facebook fa-lg" aria-hidden="true"></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="fa fa-twitter fa-lg" aria-hidden="true"></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="fa fa-youtube fa-lg" aria-hidden="true"></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="fa fa-yelp fa-lg" aria-hidden="true"></a>
+                        </li>
+                    </ul>                
+
+
+                </div>
+
+            </div>
+            </div>
+        </div>
+
+        
+        
+</footer>
+	  
+	 <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+ 
+	  
+ 
+</html>

@@ -1,0 +1,266 @@
+/* CSS Document */
+/* 
+Assignment: Final WEBD 165 web site project 
+Author: Christopher Hernandez 
+Date: December 10, 2017 
+Filename: styles.css 
+Description: Custom WEBD 165 styles for Bootstrap 
+Dependencies: bootstrap.css */
+
+
+/*///////////////////////////////// */
+/*//////////// HEADER /////////////*/
+
+.header {
+	height: 70vh;
+	background-image: linear-gradient(to right bottom, rgba(89,3,127, .5),
+		rgba(178,7,255,.5)), url(/images/facial2.png);
+	background-size: cover;
+	background-position: right;
+}
+
+.row-header {
+	margin: 0px auto;
+	padding: 0px auto;
+	
+}
+
+
+header h1 {
+    font-size: 50px;
+}
+ 
+header h1 span {
+    font-size: 80px;
+    
+}
+
+.row-content {
+	margin: 0px auto;
+	padding: 50px 0px 50px 0px;
+	border-bottom: 1px ridge;
+	min-height: 400px;
+}
+
+
+/*///////////////////////////////// */
+/*//////////// FOOTER /////////////*/
+
+.footer {
+	background-color: #D1C4E9;
+	margin: 0px auto;
+	padding: 20px 0px 20px 0px;
+}
+
+
+.jumbotron {
+	padding: 70px 30px 70px 30px;
+	margin: 0px auto;
+	background: #9575CD;
+	color: floralwhite;
+	
+}
+
+.address {
+	font-size: 80%;
+	margin: 0px;
+	color: #0f0f0f;
+}
+
+body {
+	padding: 50px 0px 0px 0px;
+	z-index: 0;
+}
+
+.navbar-inverse {
+	background-color: #512DA8;
+}
+
+
+.reserve {
+	background-color: #FFB51A;
+}
+
+.tab-content {
+	padding-top: 10px;
+}
+
+.carousel {
+    background:#512DA8;
+}
+
+
+.footer-widget {
+
+    height: 100%;
+    width: 100%;
+}
+
+.color {
+    background: #9575CD
+}
+
+.colorhd {
+    
+    color: white;
+}
+
+
+
+body {
+	padding: 50px 0px 0px 0px;
+	z-index: 0;
+}
+
+.row-content {
+	margin: 0px auto;
+	padding: 50px 0px 50px 0px;
+	border-bottom: 1px ridge;
+	min-height: 400px;
+}
+
+
+
+.topcenter {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+    border-radius: 2px;
+    height: 100%;
+    padding: 20px;
+    color:white;
+    max-width: 527px;
+ 
+    
+}
+
+.textoverimg {
+    position: relative;
+}
+
+.nav.nav-pills {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+li.nav-item>a {
+    color: white;
+}
+
+ul.nav-pills > li.nav-item > .active {
+        background-color: transparent;
+        border-radius: 0;
+            box-shadow: inset  0px -5px 0 0px #FFF;   
+    }
+
+.header-content {
+    min-height: 220px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+.logo-border {
+    
+    
+}
+logo-valign: {
+    
+ display:flex;
+  align-items:center;
+    
+}
+
+
+
+h1, p, li, nav a {
+    
+   font-family:  'Abel', sans-serif;
+}
+
+p {
+    font-size: 18px;
+    
+}
+
+#bt {
+    
+    border-top: 1px ridge rgba(0,0,0,.5);
+}
+
+header row {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+footer {
+    background-color:#512DA8;
+    color: white;
+    padding-top: 20px;
+
+    
+}
+
+footer p {
+    font-size: 16px;
+    
+}
+
+ul.list-inline li a.fa {
+    
+    color: black;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    overflow: hidden;
+    margin: 5px;
+    
+}
+
+ul.list-inline li a.fa:hover {
+    
+    color: white;
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    overflow: hidden;
+    margin: 5px;
+    
+}
+
+
+
+.rowpad {
+    
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+    
+}
+
+.imgservices {
+    
+    max-height: 800px;
+    display: block;
+    margin: auto;
+    
+}
+
+#myCarousel .carousel-item img {
+    width: 100%;
+    height: 100%;
+} 
